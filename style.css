@@ -1,0 +1,51 @@
+/* Basic creative CSS design */
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: #f5f7fa;
+    color: #333;
+    margin: 0;
+}
+header {
+    background: linear-gradient(120deg, #3a7bd5, #00d2ff);
+    color: white;
+    text-align: center;
+    padding: 2em 1em;
+}
+nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    list-style: none;
+    padding: 0;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+section {
+    max-width: 900px;
+    margin: auto;
+    padding: 2em 1em;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+input, textarea, button {
+    padding: 0.8em;
+    font-size: 1em;
+}
+button {
+    background-color: #3a7bd5;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+footer {
+    background: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
