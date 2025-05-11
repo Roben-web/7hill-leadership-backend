@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: 7hill-leadership-backend
+    env: java
+    buildCommand: "./mvnw package || mvn package"
+    startCommand: "java -cp target/classes:target/dependency/* Main"
